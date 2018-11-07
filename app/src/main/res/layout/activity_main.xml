@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.edu.unifeso.controleestacionamento.Activity.MainActivity"
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/estacionar" />
+
+
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/Cad-1"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:text="CADASTRAR VEÍCULO" />
+
+  <Button
+      android:id="@+id/Cad-2"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:text="CADASTRAR VAGA" />
+
+  <Button
+      android:id="@+id/Cons_3"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:text="CONSULTAR VEICULO" />
+
+  <Button
+      android:id="@+id/List_4"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:text="LISTAR VEICULO" />
+
+  <Button
+      android:id="@+id/List_5"
+      android:layout_width="410dp"
+      android:layout_height="wrap_content"
+      android:text="LISTAR VAGA" />
+
+
+</LinearLayout>
